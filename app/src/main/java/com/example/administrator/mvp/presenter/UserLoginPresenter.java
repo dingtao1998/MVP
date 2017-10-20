@@ -1,5 +1,7 @@
 package com.example.administrator.mvp.presenter;
 
+import android.util.Log;
+
 import com.example.administrator.mvp.bean.User;
 import com.example.administrator.mvp.biz.IUserBiz;
 import com.example.administrator.mvp.biz.OnLoginListener;
@@ -24,7 +26,7 @@ public class UserLoginPresenter {
         userBiz.login(userLoginView.getUserName(), userLoginView.getPassWord(), new OnLoginListener() {
             @Override
             public void loginSuccess(User user) {
-
+                Log.i("SS","SS");
 
             }
 

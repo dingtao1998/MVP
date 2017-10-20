@@ -36,6 +36,7 @@ public class UserLoginPresenter {
 
     public void clear() {
         userLoginView.clearUserName();
+
         userLoginView.clearPassWord();
     }
 }

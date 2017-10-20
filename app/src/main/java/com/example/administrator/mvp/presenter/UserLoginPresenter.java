@@ -25,6 +25,7 @@ public class UserLoginPresenter {
             @Override
             public void loginSuccess(User user) {
 
+
             }
 
             @Override
